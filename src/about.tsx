@@ -7,20 +7,23 @@ function About() {
     <div>
       <Header />
       <div className="container mx-auto px-4 py-12 mt-[64px]">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">About Me</h1>
+        <h1 className="text-2xl md:text-3xl  mb-8">About Me</h1>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src="./mypic01.jpg"
-              alt="Your Name"
-              width={400}
-              height={400}
-              className="rounded-lg shadow-lg"
+              src="/mypic02.jpg"
+              alt="Alexandre"
+              width={600}
+              height={300}
+              className="rounded-lg shadow-lg "
             />
+            <h2 className="  font-bold ">Alexandre HONFOGA</h2>
+            <p className="">Frontend Developer</p>
           </div>
+
           <div>
             <p className="mb-4">
-              Hello! I'm Alexandre, a passionate frontend developer with 2 years
+              Hello! I'm Alexandre, a passionate frontend developer with 3 years
               of experience in creating beautiful and functional web
               applications. I specialize in React, Next.js, and modern CSS
               frameworks like Tailwind CSS.
@@ -43,6 +46,7 @@ function About() {
               <li>Git, GitHub</li>
               <li>Responsive Web Design</li>
               <li>Web Accessibility</li>
+              <li>Java</li>
             </ul>
             <a
               href="/your_name_cv.pdf"

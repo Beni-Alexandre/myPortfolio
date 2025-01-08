@@ -35,7 +35,7 @@ function Home() {
           </div>
           <div>
             <p className="mb-4">
-              I'm a frontend developer with 2 years of experience, specializing
+              I'm a frontend developer with 3 years of experience, specializing
               in creating responsive and user-friendly web applications. My
               expertise includes Html, Javascript, React, Next.js, and modern
               CSS frameworks like Tailwind CSS and Boostrap.
