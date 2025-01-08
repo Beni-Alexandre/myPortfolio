@@ -68,6 +68,64 @@ function Header() {
           ))}
         </div>
       )}
+      {/* <div className="hidden md:flex space-x-4">
+          <Link to="/" className="hover:text-blue-500 transition-colors">
+            Home
+          </Link>
+          <Link to="/about" className="hover:text-blue-500 transition-colors">
+            About
+          </Link>
+          <Link
+            to="/portfolio"
+            className="hover:text-blue-500 transition-colors"
+          >
+            Portfolio
+          </Link>
+          <Link to="/contact" className="hover:text-blue-500 transition-colors">
+            Contact
+          </Link>
+        </div> */}
+      {/* <button
+          onClick={toggleDarkMode}
+          className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
+        >
+          {darkMode ? <Sun size={24} /> : <Moon size={24} />}
+        </button>
+        <button
+          className="md:hidden"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button> */}
+
+      {/* {isMenuOpen && (
+        <div className="hidden ">
+          <Link
+            to="/"
+            className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 "
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 "
+          >
+            About
+          </Link>
+          <Link
+            to="/portfolio"
+            className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 "
+          >
+            Portfolio
+          </Link>
+          <Link
+            to="/contact"
+            className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 "
+          >
+            Contact
+          </Link>
+        </div>
+      )} */}
     </header>
   );
 }

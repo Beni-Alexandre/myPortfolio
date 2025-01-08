@@ -6,13 +6,13 @@ function Home() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-4 py-12 mt-200px">
+      <div className="container mx-auto px-4 py-12 mt-200px mt-[64px]">
         <section className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-            Hi, I'm <span className="text-blue-500">Your Name</span>
+            Hi, I'm <span className="text-blue-500">ALEXANDRE</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in-delay-1">
-            A passionate frontend developer creating stunning web experiences
+            A passionate frontend developer creating stunning web experiences.
           </p>
           <Link
             to="/portfolio"
@@ -26,28 +26,28 @@ function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <img
-              src="/placeholder.svg?height=300&width=300"
-              alt="Your Name"
-              width={300}
-              height={300}
+              src="./mypic01.jpg"
+              alt="alexandre"
+              width={200}
+              height={20}
               className="rounded-full mx-auto md:mx-0 shadow-lg"
             />
           </div>
           <div>
             <p className="mb-4">
-              I'm a frontend developer with X years of experience, specializing
+              I'm a frontend developer with 2 years of experience, specializing
               in creating responsive and user-friendly web applications. My
-              expertise includes React, Next.js, and modern CSS frameworks like
-              Tailwind CSS.
+              expertise includes Html, Javascript, React, Next.js, and modern
+              CSS frameworks like Tailwind CSS and Boostrap.
             </p>
             <p className="mb-6">
-              When I'm not coding, you can find me [your hobbies or interests].
-              I'm passionate about [something you're passionate about] and
-              always eager to learn new technologies.
+              When I'm not coding, you can find me playing basketball. I'm
+              passionate about coding and always eager to learn new
+              technologies.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Beni-Alexandre"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
@@ -55,7 +55,7 @@ function Home() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/honfoga-alexandre/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
@@ -63,7 +63,7 @@ function Home() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
