@@ -9,6 +9,16 @@ html{
   font-style: normal;
   font-weight:300;
 }
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(30px); /* Start from 30px to the right */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at normal position */
+    }
+  }
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -34,6 +44,9 @@ html{
     animation: fadeIn 0.5s ease-out 0.4s;
     opacity: 0;
     animation-fill-mode: forwards;
+  }
+  .animate-fade-in-right {
+    animation: fadeInRight 1.5s ease-out forwards;
   }
   
   @layer base {

@@ -8,8 +8,8 @@ function About() {
       <Header />
       <div className="container mx-auto px-4 py-12 mt-[64px]">
         <h1 className="text-2xl md:text-3xl  mb-8">About Me</h1>
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div>
+        <div className="grid md:grid-cols-2 gap-8 items-center  ">
+          <div className="animate-fade-in">
             <img
               src="/mypic02.jpg"
               alt="Alexandre"
@@ -17,11 +17,13 @@ function About() {
               height={300}
               className="rounded-lg shadow-lg "
             />
-            <h2 className="  font-bold ">Alexandre HONFOGA</h2>
-            <p className="">Frontend Developer</p>
+            <h2 className="  font-bold animate-fade-in-delay-1 ">
+              Alexandre HONFOGA
+            </h2>
+            <p className="animate-fade-in-delay-1">Frontend Developer</p>
           </div>
 
-          <div>
+          <div className="animate-fade-in-delay-2">
             <p className="mb-4">
               Hello! I'm Alexandre, a passionate frontend developer with 3 years
               of experience in creating beautiful and functional web
@@ -49,7 +51,7 @@ function About() {
               <li>Java</li>
             </ul>
             <a
-              href="/your_name_cv.pdf"
+              href="/Alexandre_Resume.pdf"
               download
               className="inline-flex items-center px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition-colors mt-6"
             >
