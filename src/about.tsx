@@ -46,37 +46,40 @@ function About() {
       <div className="container mx-auto px-4 py-12 mt-[64px]">
         <h1 className="text-2xl md:text-3xl  mb-8">About Me</h1>
         <div className="grid md:grid-cols-2 gap-8 items-center  ">
-          <div className="animate-fade-in">
+          <div>
             <img
               src="/mypic02.jpg"
               alt="Alexandre"
               width={600}
               height={300}
-              className="rounded-lg shadow-lg "
+              className="rounded-lg shadow-lg animate-fade-in  "
             />
-            <h2 className="  font-bold animate-fade-in-delay-1 ">
+            <h2 className="  font-bold animate-fade-in-delay-1  ">
               Alexandre HONFOGA
             </h2>
-            <p className="animate-fade-in-delay-1">Frontend Developer</p>
+            <p className="animate-fade-in-delay-1 mb-10">Frontend Developer</p>
+
+            <div className="animate-fade-in-delay-1">
+              <p className="mb-4">
+                Hello! I'm Alexandre, a passionate frontend developer with 3
+                years of experience in creating beautiful and functional web
+                applications. I specialize in React, Next.js, and modern CSS
+                frameworks like Tailwind CSS.
+              </p>
+              <p className="mb-4">
+                My journey in web development started in 2022. Since then, I've
+                worked on a variety of projects, from small business websites to
+                large-scale web applications.
+              </p>
+              <p className="mb-4">
+                When I'm not coding, you can find me playing basketball. I
+                believe in continuous learning and staying up-to-date with the
+                latest web technologies and best practices.
+              </p>
+            </div>
           </div>
 
           <div className="animate-fade-in-delay-2">
-            <p className="mb-4">
-              Hello! I'm Alexandre, a passionate frontend developer with 3 years
-              of experience in creating beautiful and functional web
-              applications. I specialize in React, Next.js, and modern CSS
-              frameworks like Tailwind CSS.
-            </p>
-            <p className="mb-4">
-              My journey in web development started in 2022. Since then, I've
-              worked on a variety of projects, from small business websites to
-              large-scale web applications.
-            </p>
-            <p className="mb-4">
-              When I'm not coding, you can find me playing basketball. I believe
-              in continuous learning and staying up-to-date with the latest web
-              technologies and best practices.
-            </p>
             <h2 className="text-2xl font-bold mt-6 mb-4">Skills</h2>
             <ul className="list-disc list-inside">
               <li>HTML5, CSS3, JavaScript (ES6+)</li>
