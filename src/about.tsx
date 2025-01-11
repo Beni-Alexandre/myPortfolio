@@ -76,15 +76,36 @@ function About() {
                 believe in continuous learning and staying up-to-date with the
                 latest web technologies and best practices.
               </p>
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold mb-4">
+                  Personal Information
+                </h2>
+                <div className="flex items-center space-x-2">
+                  <span>
+                    Email:
+                    <a href="mailto:honfogabeni@gmail.com">
+                      honfogabeni@gmail.com
+                    </a>
+                  </span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>
+                    Phone: <a href="tel:+233530202061">+233530202061</a>
+                  </span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>Nationality:Beninese</span>
+                </div>
+              </div>
             </div>
           </div>
 
           <div className="animate-fade-in-delay-2">
             <h2 className="text-2xl font-bold mt-6 mb-4">Skills</h2>
             <ul className="list-disc list-inside">
-              <li>HTML5, CSS3, JavaScript (ES6+)</li>
-              <li>React, Next.js</li>
-              <li>Tailwind CSS, Styled Components</li>
+              <li>HTML5, CSS3, JavaScript (ES6+), Typescript</li>
+              <li>React, Node.js, Express.js</li>
+              <li>Tailwind CSS, Boostrap, Styled Components</li>
               <li>Git, GitHub</li>
               <li>Responsive Web Design</li>
               <li>Web Accessibility</li>
