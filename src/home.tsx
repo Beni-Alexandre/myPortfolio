@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-4 py-12 mt-200px mt-[64px]">
+      <div className="container mx-auto px-4 py-12 mt-200px mt-[64px] min-h-screen items-center justify-center">
         <section className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
             Hi, I'm <span className="">ALEXANDRE</span>

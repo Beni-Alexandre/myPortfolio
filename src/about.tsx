@@ -43,7 +43,7 @@ function About() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-4 py-12 mt-[64px]">
+      <div className="container mx-auto px-4 py-12 mt-[64px] min-h-screen items-center justify-center">
         <h1 className="text-2xl md:text-3xl  mb-8">About Me</h1>
         <div className="grid md:grid-cols-2 gap-8 items-center  ">
           <div>
