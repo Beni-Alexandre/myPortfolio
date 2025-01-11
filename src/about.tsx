@@ -94,7 +94,7 @@ function About() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span>Nationality:Beninese</span>
+                  <span>Nationality: Beninese</span>
                 </div>
               </div>
             </div>
