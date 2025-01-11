@@ -57,21 +57,23 @@ function About() {
             <h2 className="  font-bold animate-fade-in-delay-1  ">
               Alexandre HONFOGA
             </h2>
-            <p className="animate-fade-in-delay-1 mb-10">Frontend Developer</p>
+            <p className="animate-fade-in-delay-1 mb-10 dark:text-slate-400">
+              Frontend Developer
+            </p>
 
-            <div className="animate-fade-in-delay-1">
-              <p className="mb-4">
+            <div className="animate-fade-in-delay-1 ">
+              <p className="mb-4 dark:text-slate-400">
                 Hello! I'm Alexandre, a passionate frontend developer with 3
                 years of experience in creating beautiful and functional web
                 applications. I specialize in React, Next.js, and modern CSS
                 frameworks like Tailwind CSS.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 dark:text-slate-400">
                 My journey in web development started in 2022. Since then, I've
                 worked on a variety of projects, from small business websites to
                 large-scale web applications.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 dark:text-slate-400">
                 When I'm not coding, you can find me playing basketball. I
                 believe in continuous learning and staying up-to-date with the
                 latest web technologies and best practices.
@@ -80,21 +82,23 @@ function About() {
                 <h2 className="text-2xl font-bold mb-4">
                   Personal Information
                 </h2>
-                <div className="flex items-center space-x-2">
-                  <span>
-                    Email:
-                    <a href="mailto:honfogabeni@gmail.com">
-                      honfogabeni@gmail.com
-                    </a>
-                  </span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span>
-                    Phone: <a href="tel:+233530202061">+233530202061</a>
-                  </span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span>Nationality: Beninese</span>
+                <div className="dark:text-slate-400">
+                  <div className="flex items-center space-x-2  ">
+                    <span>
+                      Email:
+                      <a href="mailto:honfogabeni@gmail.com">
+                        honfogabeni@gmail.com
+                      </a>
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <span>
+                      Phone: <a href="tel:+233530202061">+233530202061</a>
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <span>Nationality: Beninese</span>
+                  </div>
                 </div>
               </div>
             </div>

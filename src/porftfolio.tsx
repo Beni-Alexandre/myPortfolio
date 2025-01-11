@@ -27,7 +27,7 @@ function Portfolio() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-4 py-12 mt-[64px]">
+      <div className="container mx-auto px-4 py-12 mt-[64px] ">
         <h1 className="text-2xl md:text-3xl mb-8">My Portfolio</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in-delay-3">
           {projects.map((project, index) => (

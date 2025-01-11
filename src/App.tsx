@@ -6,12 +6,14 @@ import "./index.css";
 import Contact from "./contact";
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <div className="dark:bg-black dark:text-white">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
   );
 }
 

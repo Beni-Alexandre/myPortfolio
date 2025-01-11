@@ -34,13 +34,13 @@ function Home() {
             />
           </div>
           <div>
-            <p className="mb-4">
+            <p className="mb-4 dark:text-slate-400">
               I'm a frontend developer with 3 years of experience, specializing
               in creating responsive and user-friendly web applications. My
               expertise includes Html, Javascript, React, Next.js, and modern
               CSS frameworks like Tailwind CSS and Boostrap.
             </p>
-            <p className="mb-6">
+            <p className="mb-6 dark:text-slate-400">
               When I'm not coding, you can find me playing basketball. I'm
               passionate about coding and always eager to learn new
               technologies.

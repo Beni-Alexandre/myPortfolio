@@ -51,7 +51,7 @@ function Contact() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-4 py-12 mt-[64px]">
+      <div className="container mx-auto px-4 py-12 mt-[64px] animate-fade-in ">
         <h1 className="text-2xl md:text-3xl mb-8">Contact Me</h1>
         <div className="max-w-2xl mx-auto">
           <form onSubmit={onSubmit} className="space-y-6">
