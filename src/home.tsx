@@ -6,9 +6,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-4 py-12 mt-200px mt-[64px] min-h-screen items-center justify-center">
-        <section className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
+      <div className=" container mx-auto flex flex-col md:flex-row items-center justify-between gap-12 py-12 mt-[40px]  ">
+        <div className="md:w-1/2 text-center md:text-left mb-5">
+          <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
             Hi, I'm <span className="">ALEXANDRE</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in-delay-1">
@@ -16,24 +16,24 @@ function Home() {
           </p>
           <Link
             to="/portfolio"
-            className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gray-500 rounded-full hover:bg-blue-600 transition-colors animate-fade-in-delay-2"
+            className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gray-500 rounded-full hover:bg-indigo-800 transition-colors animate-fade-in-delay-2"
           >
             View My Work
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <ArrowRight className="motion-safe:animate-ping  ml-2 h-5 w-5" />
           </Link>
-        </section>
+        </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center animate-fade-in-delay-1">
-          <div className="text-center md:text-left">
+        <div className="md:w-1/2 animate-fade-in-right">
+          <div className="grid place-items-center mb-5">
             <img
               src="./mypic01.jpg"
               alt="alexandre"
-              width={200}
-              height={20}
-              className="rounded-full mx-auto md:mx-0 shadow-lg img01"
+              width={300}
+              height={300}
+              className="rounded-full mx-auto md:mx-0 shadow-lg img01 text-center"
             />
           </div>
-          <div>
+          <div className="flex flex-col items-center ">
             <p className="mb-4 dark:text-slate-400">
               I'm a frontend developer with 3 years of experience, specializing
               in creating responsive and user-friendly web applications. My
@@ -45,7 +45,7 @@ function Home() {
               passionate about coding and always eager to learn new
               technologies.
             </p>
-            <div className="flex justify-center md:justify-start space-x-4">
+            <div className="flex justify-center  space-x-4">
               <a
                 href="https://github.com/Beni-Alexandre"
                 target="_blank"
