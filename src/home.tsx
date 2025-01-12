@@ -26,25 +26,28 @@ function Home() {
         <div className="md:w-1/2 animate-fade-in-right">
           <div className="grid place-items-center mb-5">
             <img
-              src="./mypic01.jpg"
+              src="./mypic06.jpg"
               alt="alexandre"
               width={300}
-              height={300}
+              height={400}
               className="rounded-full mx-auto md:mx-0 shadow-lg img01 text-center"
             />
           </div>
           <div className="flex flex-col items-center ">
             <p className="mb-4 dark:text-slate-400">
-              I'm a frontend developer with 3 years of experience, specializing
-              in creating responsive and user-friendly web applications. My
-              expertise includes Html, Javascript, React, Next.js, and modern
-              CSS frameworks like Tailwind CSS and Boostrap.
+              I am a passionate and driven Frontend Developer with over 3 years
+              of experience in creating dynamic and responsive web applications.
+              I specialize in transforming complex requirements into intuitive
+              and visually appealing user interfaces. My technical expertise
+              spans HTML, JavaScript, React, and Next.js, along with modern CSS
+              frameworks like Tailwind CSS and Bootstrap, which I leverage to
+              build high-quality and scalable web solutions.
             </p>
-            <p className="mb-6 dark:text-slate-400">
+            {/* <p className="mb-6 dark:text-slate-400">
               When I'm not coding, you can find me playing basketball. I'm
               passionate about coding and always eager to learn new
               technologies.
-            </p>
+            </p> */}
             <div className="flex justify-center  space-x-4">
               <a
                 href="https://github.com/Beni-Alexandre"

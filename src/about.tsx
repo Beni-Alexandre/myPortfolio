@@ -48,7 +48,7 @@ function About() {
         <div className="grid md:grid-cols-2 gap-8 items-center  ">
           <div>
             <img
-              src="/mypic02.jpg"
+              src="/mypic04.jpg"
               alt="Alexandre"
               width={600}
               height={300}
@@ -74,9 +74,13 @@ function About() {
                 large-scale web applications.
               </p>
               <p className="mb-4 dark:text-slate-400">
-                When I'm not coding, you can find me playing basketball. I
-                believe in continuous learning and staying up-to-date with the
-                latest web technologies and best practices.
+                Outside of coding, I’m an avid basketball player, which has
+                helped me develop a team-oriented mindset and a strong work
+                ethic. I am always eager to learn new technologies and keep up
+                with the ever-evolving web development landscape, whether
+                through side projects, online courses, or community involvement.
+                My goal is to continuously improve my skills while contributing
+                to innovative projects that make a meaningful impact.
               </p>
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold mb-4">
