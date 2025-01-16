@@ -35,7 +35,7 @@ function Home() {
           </div>
           <div className="flex flex-col items-center ">
             <p className="mb-4 dark:text-slate-400">
-              I am a passionate and driven Frontend Developer with over 3 years
+              I am a passionate and driven Frontend Developer with over 2 years
               of experience in creating dynamic and responsive web applications.
               I specialize in transforming complex requirements into intuitive
               and visually appealing user interfaces. My technical expertise

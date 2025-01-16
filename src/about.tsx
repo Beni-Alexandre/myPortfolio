@@ -24,7 +24,7 @@ const experiences: Experience[] = [
       "Assited users in resolving technical issues, maintaining IT infrastructure,  and ensuring that technology resources are working effectively and efficiently.",
   },
   {
-    title: " Senior Frontend developer",
+    title: " Junior Frontend developer",
     company: "IKIGAI Benin",
     period: "Nov2024 - Feb 2025",
     description: "Developed and maintained client website",
@@ -63,18 +63,18 @@ function About() {
 
             <div className="animate-fade-in-delay-1 ">
               <p className="mb-4 dark:text-slate-400">
-                Hello! I'm Alexandre, a passionate frontend developer with 3
+                Hello! I'm Alexandre, a passionate frontend developer with 2
                 years of experience in creating beautiful and functional web
                 applications. I specialize in React, Next.js, and modern CSS
                 frameworks like Tailwind CSS.
               </p>
               <p className="mb-4 dark:text-slate-400">
-                My journey in web development started in 2022. Since then, I've
+                My journey in web development started in 2023. Since then, I've
                 worked on a variety of projects, from small business websites to
                 large-scale web applications.
               </p>
               <p className="mb-4 dark:text-slate-400">
-                Outside of coding, I’m an avid basketball player, which has
+                Outside of coding, I am an avid basketball player, which has
                 helped me develop a team-oriented mindset and a strong work
                 ethic. I am always eager to learn new technologies and keep up
                 with the ever-evolving web development landscape, whether
