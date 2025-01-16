@@ -43,11 +43,7 @@ function Home() {
               frameworks like Tailwind CSS and Bootstrap, which I leverage to
               build high-quality and scalable web solutions.
             </p>
-            {/* <p className="mb-6 dark:text-slate-400">
-              When I'm not coding, you can find me playing basketball. I'm
-              passionate about coding and always eager to learn new
-              technologies.
-            </p> */}
+
             <div className="flex justify-center  space-x-4">
               <a
                 href="https://github.com/Beni-Alexandre"

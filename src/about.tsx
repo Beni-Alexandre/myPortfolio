@@ -33,6 +33,11 @@ const experiences: Experience[] = [
 
 const education: Education[] = [
   {
+    degree: "Certificate in English",
+    institution: "SEED INSTITUTE OF LANGUAGES",
+    year: "Oct2021 - jun2022 ",
+  },
+  {
     degree: "Bachelor of Science in Computer Science ",
     institution: "KAAF University Ghana",
     year: "Sep2022 - Nov2026 ",
@@ -127,24 +132,24 @@ function About() {
               <FileDown className="mr-2 h-5 w-5" />
               Download CV
             </a>
-            <h2 className="text-2xl font-bold mt-8 mb-4 flex items-center">
+            <h2 className="text-3xl font-bold mt-8 mb-4 flex items-center">
               <Briefcase className="mr-2" /> Experience
             </h2>
             {experiences.map((exp, index) => (
               <div key={index} className="mb-6">
-                <h3 className="text-xl font-semibold">{exp.title}</h3>
+                <h3 className="text-xl ">{exp.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   {exp.company} | {exp.period}
                 </p>
                 <p className="mt-2">{exp.description}</p>
               </div>
             ))}
-            <h2 className="text-2xl font-bold mt-8 mb-4 flex items-center">
+            <h2 className="text-3xl font-bold mt-8 mb-4 flex items-center">
               <GraduationCap className="mr-2" /> Education
             </h2>
             {education.map((edu, index) => (
               <div key={index} className="mb-6">
-                <h3 className="text-xl font-semibold">{edu.degree}</h3>
+                <h3 className="text-xl ">{edu.degree}</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   {edu.institution} | {edu.year}
                 </p>

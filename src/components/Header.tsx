@@ -60,27 +60,49 @@ function Header() {
           {isDarkMode ? <Sun size={24} /> : <Moon size={24} />}
         </button>
         <button
-          className="md:hidden"
+          className="md:hidden "
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>
 
-      {isMenuOpen && (
-        <div className="md:hidden">
+      {/* {isMenuOpen && (
+        <div
+          // className="md:hidden"
+          className={`${
+            isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+          } overflow-hidden transition-all duration-500 ease-in-out md:hidden`}
+        >
           {navItems.map((item) => (
             <Link
               key={item.name}
               to={item.path}
-              className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
+              className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 "
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}
             </Link>
           ))}
         </div>
-      )}
+      )} */}
+
+      <div
+        className={`${
+          isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        } overflow-hidden transition-all duration-1000 ease-in-out md:hidden`}
+      >
+        {navItems.map((item) => (
+          <Link
+            key={item.name}
+            to={item.path}
+            className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {item.name}
+          </Link>
+        ))}
+      </div>
     </header>
   );
 }
