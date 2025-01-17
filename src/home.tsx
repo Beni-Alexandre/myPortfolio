@@ -9,14 +9,14 @@ function Home() {
       <div className=" container mx-auto flex flex-col md:flex-row items-center justify-between gap-12 py-12 mt-[40px]  ">
         <div className="md:w-1/2 text-center md:text-left mb-5">
           <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
-            Hi, I'm <span className="">ALEXANDRE</span>
+            Hi, I'm <span className="text-blue-500">ALEXANDRE</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in-delay-1">
             A passionate frontend developer creating stunning web experiences.
           </p>
           <Link
             to="/portfolio"
-            className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gray-500 rounded-full hover:bg-indigo-800 transition-colors animate-fade-in-delay-2"
+            className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-blue-500 rounded-full hover:bg-indigo-800 transition-colors animate-fade-in-delay-2"
           >
             View My Works
             <ArrowRight className="motion-safe:animate-ping  ml-2 h-5 w-5" />

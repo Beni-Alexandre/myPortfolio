@@ -1,4 +1,11 @@
-import { FileDown, Briefcase, GraduationCap } from "lucide-react";
+import {
+  FileDown,
+  Briefcase,
+  GraduationCap,
+  Phone,
+  Mail,
+  Globe,
+} from "lucide-react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -34,7 +41,7 @@ const experiences: Experience[] = [
 const education: Education[] = [
   {
     degree: "Certificate in English",
-    institution: "SEED INSTITUTE OF LANGUAGES",
+    institution: "SEED INSTITUTE OF LANGUAGES Ghana",
     year: "Oct2021 - jun2022 ",
   },
   {
@@ -93,6 +100,7 @@ function About() {
                 </h2>
                 <div className="dark:text-slate-400">
                   <div className="flex items-center space-x-2  ">
+                    <Mail className="w-5 h-5 text-blue-500 flex-shrink-0" />
                     <span>
                       Email:
                       <a href="mailto:honfogabeni@gmail.com">
@@ -101,12 +109,18 @@ function About() {
                     </span>
                   </div>
                   <div className="flex items-center space-x-2">
+                    <Phone className="w-5 h-5 text-blue-500 flex-shrink-0" />
                     <span>
                       Phone: <a href="tel:+233530202061">+233530202061</a>
                     </span>
                   </div>
                   <div className="flex items-center space-x-2">
+                    <Globe className="w-5 h-5 text-blue-500 flex-shrink-0" />
                     <span>Nationality: Beninese</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <Briefcase className="w-5 h-5 text-blue-500 flex-shrink-0" />
+                    <span>Freelance: Available</span>
                   </div>
                 </div>
               </div>

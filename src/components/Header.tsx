@@ -35,7 +35,7 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white    shadow-md dark:bg-gray-950 ">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white    shadow-md dark:bg-gray-800">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold">
           {" "}
@@ -66,26 +66,6 @@ function Header() {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>
-
-      {/* {isMenuOpen && (
-        <div
-          // className="md:hidden"
-          className={`${
-            isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-          } overflow-hidden transition-all duration-500 ease-in-out md:hidden`}
-        >
-          {navItems.map((item) => (
-            <Link
-              key={item.name}
-              to={item.path}
-              className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 "
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {item.name}
-            </Link>
-          ))}
-        </div>
-      )} */}
 
       <div
         className={`${

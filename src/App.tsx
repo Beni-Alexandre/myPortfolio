@@ -6,7 +6,7 @@ import "./index.css";
 import Contact from "./contact";
 function App() {
   return (
-    <div className="dark:bg-black dark:text-white min-h-screen items-center justify-center">
+    <div className="dark:bg-gray-900 dark:text-gray-100 min-h-screen items-center justify-center">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
