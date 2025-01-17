@@ -18,7 +18,7 @@ function Home() {
             to="/portfolio"
             className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-gray-500 rounded-full hover:bg-indigo-800 transition-colors animate-fade-in-delay-2"
           >
-            View My Work
+            View My Works
             <ArrowRight className="motion-safe:animate-ping  ml-2 h-5 w-5" />
           </Link>
         </div>
