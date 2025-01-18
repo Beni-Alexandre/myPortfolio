@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import { Link } from "react-router-dom";
-import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowRight, Github, Linkedin } from "lucide-react";
 import Footer from "./components/Footer";
 function Home() {
   return (
@@ -34,7 +34,7 @@ function Home() {
             />
           </div>
           <div className="flex flex-col items-center ">
-            <p className="mb-4 dark:text-slate-400">
+            <p className="mb-4    dark:text-slate-400">
               I am a passionate and driven Frontend Developer with over 2 years
               of experience in creating dynamic and responsive web applications.
               I specialize in transforming complex requirements into intuitive
@@ -60,14 +60,6 @@ function Home() {
                 className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
               >
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              >
-                <Twitter className="w-6 h-6" />
               </a>
             </div>
           </div>
