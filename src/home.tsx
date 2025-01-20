@@ -33,34 +33,37 @@ function Home() {
               className="rounded-full mx-auto md:mx-0 shadow-lg img01 text-center"
             />
           </div>
-          <div className="flex flex-col items-center ">
-            <p className="mb-4    dark:text-slate-400">
-              I am a passionate and driven Frontend Developer with over 2 years
-              of experience in creating dynamic and responsive web applications.
-              I specialize in transforming complex requirements into intuitive
-              and visually appealing user interfaces. My technical expertise
-              spans HTML, JavaScript, React, and Next.js, along with modern CSS
-              frameworks like Tailwind CSS and Bootstrap, which I leverage to
-              build high-quality and scalable web solutions.
-            </p>
+          <div className="max-w-screen-md mx-auto px-4 py-8">
+            <div className="flex flex-col items-center ">
+              <p className="mb-4 text-center   dark:text-slate-400">
+                I am a passionate and driven Frontend Developer with over 2
+                years of experience in creating dynamic and responsive web
+                applications. I specialize in transforming complex requirements
+                into intuitive and visually appealing user interfaces. My
+                technical expertise spans HTML, JavaScript, React, and Next.js,
+                along with modern CSS frameworks like Tailwind CSS and
+                Bootstrap, which I leverage to build high-quality and scalable
+                web solutions.
+              </p>
 
-            <div className="flex justify-center  space-x-4">
-              <a
-                href="https://github.com/Beni-Alexandre"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              >
-                <Github className="w-6 h-6" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/honfoga-alexandre/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              >
-                <Linkedin className="w-6 h-6" />
-              </a>
+              <div className="flex justify-center  space-x-4">
+                <a
+                  href="https://github.com/Beni-Alexandre"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+                >
+                  <Github className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/honfoga-alexandre/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+                >
+                  <Linkedin className="w-6 h-6" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
