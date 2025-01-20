@@ -80,11 +80,7 @@ function About() {
                 applications. I specialize in React, Next.js, and modern CSS
                 frameworks like Tailwind CSS.
               </p>
-              <p className="mb-4 dark:text-slate-400">
-                My journey in web development started in 2023. Since then, I've
-                worked on a variety of projects, from small business websites to
-                large-scale web applications.
-              </p>
+             
               <p className="mb-4 dark:text-slate-400">
                 Outside of coding, I am an avid basketball player, which has
                 helped me develop a team-oriented mindset and a strong work
