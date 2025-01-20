@@ -6,7 +6,7 @@ import "./index.css";
 import Contact from "./contact";
 function App() {
   return (
-    <div className="dark:bg-gray-900 dark:text-gray-100 min-h-screen items-center justify-center">
+    <div className="dark:bg-gray-900 dark:text-gray-100  ">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -18,3 +18,4 @@ function App() {
 }
 
 export default App;
+// min-h-screen items-center justify-center
