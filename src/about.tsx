@@ -80,7 +80,7 @@ function About() {
                 applications. I specialize in React, Next.js, and modern CSS
                 frameworks like Tailwind CSS.
               </p>
-             
+
               <p className="mb-4 dark:text-slate-400">
                 Outside of coding, I am an avid basketball player, which has
                 helped me develop a team-oriented mindset and a strong work
@@ -135,7 +135,7 @@ function About() {
               <li>Java</li>
             </ul>
             <a
-              href="/Alexandre_Resume.pdf"
+              href="/MyResume.pdf"
               download
               className="inline-flex items-center px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition-colors mt-6"
             >

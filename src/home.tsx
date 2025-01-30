@@ -9,7 +9,7 @@ function Home() {
       <div className=" container mx-auto flex flex-col md:flex-row items-center justify-between gap-12 py-12 mt-[40px] min-h-screen lg:min-h-screen overflow-y-auto  ">
         <div className="md:w-1/2 text-center md:text-left mb-5">
           <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
-            Hi, I'm <span className="text-blue-500">ALEXANDRE</span>
+            Hi, I'm <span className="text-blue-500  ">ALEXANDRE</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in-delay-1">
             A passionate frontend developer creating stunning web experiences.
