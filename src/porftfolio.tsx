@@ -19,7 +19,7 @@ const projects = [
     title: "Alexuni",
     description: " A landing page for an imaginary University",
     image: "/alexuni.png",
-    link: "https://beni-alexandre.github.io/Alex-University/",
+    link: "https://alexuni-reactapp.vercel.app/",
   },
 ];
 
