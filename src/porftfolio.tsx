@@ -8,13 +8,13 @@ const projects = [
     image: "/ikigai.png",
     link: "https://ikigai-sigma-nine.vercel.app/",
   },
-  {
-    title: "Game scorer",
-    description:
-      "Web App to take game scores during basketball,fottball and voleyball matches (Designed For Phones Only)",
-    image: "/gamescorer.jpg",
-    link: "https://beni-alexandre.github.io/Game-scorer/",
-  },
+  // {
+  //   title: "Game scorer",
+  //   description:
+  //     "Web App to take game scores during basketball,fottball and voleyball matches (Designed For Phones Only)",
+  //   image: "/gamescorer.jpg",
+  //   link: "https://beni-alexandre.github.io/Game-scorer/",
+  // },
   {
     title: "Alexuni",
     description: " A landing page for an imaginary University",
